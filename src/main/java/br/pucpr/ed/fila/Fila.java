@@ -11,4 +11,6 @@ public interface Fila {
     Integer size();
 
     Boolean isEmpty();
+    
+    void dump();
 }
