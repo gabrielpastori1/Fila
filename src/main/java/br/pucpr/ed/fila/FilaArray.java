@@ -2,13 +2,13 @@ package br.pucpr.ed.fila;
 
 public class FilaArray implements Fila {
     private int capacity;
-    private int[] fila;
+    private Integer[] fila;
     private int inicio;
     private int quantidade;
     
     FilaArray(int capacidade){
         capacity = capacidade;
-        fila = new int[capacity];
+        fila = new Integer[capacity];
         inicio = 0;
         quantidade = 0;
     }
@@ -23,7 +23,7 @@ public class FilaArray implements Fila {
     public Integer remove() {
         if(quantidade > 0){
             int buffer = fila[inicio];
-            fila[inicio] = 0;
+            fila[inicio] = null;
             quantidade--;
             inicio++;
             normalize();
