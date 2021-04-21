@@ -1,9 +1,10 @@
 package br.pucpr.ed.fila;
 
 public class MainApp {
-
+    
     public static void main(String[] args) {
-        Fila fila = new FilaArray(5);
+        // Fila fila = new FilaArray(5);
+        Fila fila = new FilaListaEncadeada();
         fila.add(5);
         fila.add(3);
         fila.remove();
@@ -25,6 +26,5 @@ public class MainApp {
         fila.add(11);
         fila.add(10);
         fila.dump();
-//        Fila fila = new FilaListaEncadeada();
     }
 }

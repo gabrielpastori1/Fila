@@ -27,7 +27,7 @@ Problemas Estruturados em Computação do curso de Engenharia de Software da PUC
    | 2 | 0 (null) |
    | 3 | 4 |
    | 4 | 5 |
-4) [ ] 4. Implementar a classe FilaListaEncadeada
+4) [X] 4. Implementar a classe FilaListaEncadeada
 
 **Referência:**
 
